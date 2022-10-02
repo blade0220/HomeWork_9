@@ -1,7 +1,7 @@
 public class Book {
     private String bookName;
-    int publishingYear;
-    Author author;
+    private int publishingYear;
+    //Author author;
 
 
     public String getBookName() {
