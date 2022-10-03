@@ -3,8 +3,7 @@ public class Author {
     private String lastName;
 
 
-    //   public Author(String firstName, String lastName) {
-    // }
+
     public String getFirstName() {
         return this.firstName;
     }
