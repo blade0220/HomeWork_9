@@ -18,11 +18,23 @@ public class Main {
 
         book2.setPublishingYear(2020);
         System.out.println(book2.bookInfo());
+        System.out.println();
 
         if (author1.equals(author2)){
             System.out.println("Объекты равны");
         } else
             System.out.println("Объекты не равны");
+        if (author1.hashCode() == author2.hashCode()){
+            System.out.println("Хеш коды равны");
+        } else
+            System.out.println("Хеш коды не равны");
+        System.out.println();
+
+        if (book1.equals(book2)){
+            System.out.println("Объекты равны");
+        } else
+            System.out.println("Объекты не равны");
+
         if (author1.hashCode() == author2.hashCode()){
             System.out.println("Хеш коды равны");
         } else
